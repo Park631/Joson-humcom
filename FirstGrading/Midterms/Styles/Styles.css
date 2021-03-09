@@ -25,7 +25,8 @@ article{
 
 }
 .three{
+    position: relative;
     height: 200px;
     width: 400px;
-
+    offset: 800px;
 }
