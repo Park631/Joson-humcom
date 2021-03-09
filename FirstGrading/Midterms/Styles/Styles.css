@@ -14,4 +14,5 @@ body
 }
 header, nav, article, footer{
     width: 960px;
+    height: 200px;
 }
