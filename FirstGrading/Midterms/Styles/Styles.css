@@ -7,8 +7,10 @@ body
 {
     background-color: antiquewhite;
     color: coral;
-
+    width: 960px;;
     padding: 20px;
+    margin: 20px auto;
+    border: 2px #000000 solid;
     height: max-content;
 
 }
