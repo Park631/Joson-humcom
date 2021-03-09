@@ -20,7 +20,24 @@ header, nav, article, footer, .sec{
 ul{
     padding: 0px;
     list-style: none;
-    
+
+}
+a, a:active{
+    text-decoration: none;
+    color: black;
+
+}
+li{
+    display: inline-block;
+    width: 100px;
+    background-color: burlywood;
+    text-align: center;
+    padding: 3px;
+    border-radius: 16px;
+}
+a:hover{
+    color: chocolate;
+
 }
 article{
     height: max-content;
