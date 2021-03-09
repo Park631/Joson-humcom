@@ -28,5 +28,5 @@ article{
     position: relative;
     height: 200px;
     width: 400px;
-    offset: 800px;
+    left: 800px;
 }
