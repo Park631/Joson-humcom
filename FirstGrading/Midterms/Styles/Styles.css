@@ -20,14 +20,18 @@ header, nav, article, footer, .sec{
 article{
     height: max-content;
 }
+div{
+    float: left;
+    height: max-content;
+    width: min-content;
+}
 .one, .two{
     width: 500px;
 
 }
 .three{
-    position: relative;
+    float: right;
     height: 200px;
     width: 400px;
-    left: 800px;
-    top: 10px;
+
 }
