@@ -17,6 +17,11 @@ header, nav, article, footer, .sec{
     height: 200px;
     border: 1pt #bbaadd solid;
 }
+ul{
+    padding: 0px;
+    list-style: none;
+    
+}
 article{
     height: max-content;
 }
