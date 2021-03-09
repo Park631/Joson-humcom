@@ -15,4 +15,16 @@ body
 header, nav, article, footer{
     width: 960px;
     height: 200px;
+    border: 1pt #bbaadd solid;
+}
+article{
+    height: max-content;
+}
+.one, .two{
+    width: 500px;
+    height: 200px;
+}
+.three{
+    height: 200px;
+    width: 400px;
 }
