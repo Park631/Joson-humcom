@@ -22,10 +22,10 @@ article{
 }
 .one, .two{
     width: 500px;
-    float: left;
+
 }
 .three{
     height: 200px;
     width: 400px;
-    float: right;
+
 }
