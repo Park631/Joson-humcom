@@ -23,6 +23,9 @@ header, nav, article, footer, .sec{
     padding: 0px;   
      list-style: none;
     } */
+nav{
+    text-align: center;
+}
 .navis, .navis:active{    
     text-decoration: none;   
     color: #424949;    
