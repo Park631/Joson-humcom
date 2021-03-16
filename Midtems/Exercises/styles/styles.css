@@ -13,11 +13,6 @@ body{
   width: 1024px;    
   border: 1pt #BA4A00 solid;
   }
-header, nav, article, footer, .sec{   
-  width: 960px;    
-  height: 200px;    
-  border: 1pt #2E4053 solid;
-  }
 nav{
   text-align: center;
 }
