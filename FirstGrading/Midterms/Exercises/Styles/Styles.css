@@ -24,14 +24,15 @@ header {
     width: 30%;
     background-color: #f1f1f1;
   }
-  .box2{
+.box2{
     float: left;
     padding: 20px;
     width: 40%;
     background-color:violet;
-  }
-  .box3{
+}
+.box3{
     float: left;
     padding: 20px;
     width: 30%;
     background-color:rosybrown;
+  }
