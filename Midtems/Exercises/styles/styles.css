@@ -19,7 +19,7 @@ h1{
   border: 1pt aqua solid;
   }
 nav{
-  text-align: center;
+  text-align: left;
 }
 .navis, .navis:active{    
   text-decoration: none;   
@@ -27,7 +27,7 @@ nav{
   display: inline-block;    
   width: 150px;    
   background-color:chocolate;    
-  text-align: left;    
+  text-align: center;    
   padding: 3px;   
   border-radius: 8px;
 }
