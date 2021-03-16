@@ -11,3 +11,13 @@ h1{
   width: 1024px;
   border: 1pt orange solid;
 }
+.a, .a:active{
+  text-decoration: none;
+  color: orange;
+  display: inline-block;
+  width: 150px;
+  background-color: yellowgreen;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+}
