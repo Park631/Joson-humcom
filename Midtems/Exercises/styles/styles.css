@@ -16,7 +16,7 @@ h1{
 }
 #mainContent{    
   width: 1024px;    
-  border: 1pt #BA4A00 solid;
+  border: 1pt aqua solid;
   }
 nav{
   text-align: center;
@@ -33,7 +33,7 @@ nav{
 }
 .navis:hover{    
   color:cornsilk;    
-  background-color:brown
+  background-color: black;
 }
 article{
 min-height: 460px;
