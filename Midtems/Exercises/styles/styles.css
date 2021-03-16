@@ -27,7 +27,7 @@ nav{
   display: inline-block;    
   width: 150px;    
   background-color:chocolate;    
-  text-align: center;    
+  text-align: left;    
   padding: 3px;   
   border-radius: 8px;
 }
