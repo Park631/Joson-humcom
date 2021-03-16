@@ -5,13 +5,13 @@
    margin: 10px auto;
   }
 body{    
-      background-color: antiquewhite;        
-       display:block;    
-       position: relative;
+  background-color: antiquewhite;        
+  display:block;    
+  position: relative;
   }
 #mainContent{    
-          width: 1024px;    
-          border: 1pt #BA4A00 solid;
+  width: 1024px;    
+  border: 1pt #BA4A00 solid;
   }
 header, nav, article, footer, .sec{   
   width: 960px;    
