@@ -1,44 +1,24 @@
-body{    
-  background-color: antiquewhite;        
-  display:block;    
-  position: relative;
-  }
-h1{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 40px;
-  color: #BA4A00;
+body {
+  background-color: linen;
 }
-nav{
-  text-align: left;
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+} 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
-.navis, .navis:active{    
-  text-decoration: none;   
-  color: #424949;    
-  display: inline-block;    
-  width: 150px;    
-  background-color:chocolate;    
-  text-align: center;    
-  padding: 3px;   
-  border-radius: 8px;
+
+li {
+  float: left;
 }
-.navis:hover{    
-  color:cornsilk;    
-  background-color: black;
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
 }
-article{
-min-height: 460px;
-}
-#sectionContent{    
-  float:left;    
-  height: max-content;    
-  width:max-content;    
-  margin-left: 20px;
-}.one, .two{   
-  width: 560px; 
-  }
-.three{   
-  float:right;    
-  height:420px;    
-  width: 300px;      
-  margin-right: 20px; 
- }
