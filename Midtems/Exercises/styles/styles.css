@@ -9,7 +9,7 @@ body{
   display:block;    
   position: relative;
   }
-header{
+h1{
   font-family: 'Times New Roman', Times, serif;
   text-size-adjust: 12px;
   color: #BA4A00;
