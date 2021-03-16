@@ -9,6 +9,11 @@ body{
   display:block;    
   position: relative;
   }
+header{
+  font-family: 'Times New Roman', Times, serif;
+  text-size-adjust: 12px;
+  color: #BA4A00;
+}
 #mainContent{    
   width: 1024px;    
   border: 1pt #BA4A00 solid;
