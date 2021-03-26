@@ -1,8 +1,73 @@
-body{
-    margin: 0px;
+body{    
+    background-color: gray;        
 }
-.header{
-    padding: 20px;
-    background-color: gray;
+.center{
+text-align: center;
+}
+#mainContent{   
+margin: 10px; 
+padding: 20px;   
+border: 1px solid black;
+text-align: center;
+}
+.header1{
+    margin: 10px; 
+    padding: 30px;   
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+}
+.nav1{
+    margin: 10px; 
+    padding: 30px;   
+    border: 1px solid black;
+    text-align: center;
+}
+#content{
+    margin: 20px; 
+    padding: 30px;  
+    border: 1px solid black;
+    text-align: center;
+    min-height: 360px;
+    max-width: 400px;
+}
+.header2{
+    margin: 10px; 
+    padding: 30px;   
+    border: 1px solid black;
+    text-align: center;
+}
+.nav2{
+    margin: 10px; 
+    padding: 30px;   
+    border: 1px solid black;
+    text-align: center;
+    min-height: 360px;
+    max-width: 400px;
+}
+.footer1{
+    margin: 10px; 
+    padding: 30px;   
+    border: 1px solid black;
+    text-align: center;
+}
+#wrapped{
+    float:right;    
+    height: max-content;    
+    width:max-content;    
+    margin-right: 20px;
+    border: 1px solid black;
+}
+.three{   
+    float:right;    
+    height:420px;    
+    width: 300px;      
+    margin-right: 20px; 
+    text-align: center;
+   }
+.header2{
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid black;
     text-align: center;
 }
