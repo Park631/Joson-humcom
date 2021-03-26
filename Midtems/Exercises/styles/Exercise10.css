@@ -4,7 +4,10 @@
     box-sizing: border-box;   
      margin: 10px auto;
 }
-header{   
+body{
+    background-color: darkblue;
+}
+header, .div1{   
     width: 960px;    
     height: 215px;   
 }
@@ -35,5 +38,34 @@ img{
     }
 .navis:hover{       
     color:cornsilk;    
-    background-color:brown;
+    background-color: yellow;
 }
+article, .div2{
+    width: 960px;    
+    height: 215px;   
+}
+#content{
+    width: 1024px;    
+    border: 1pt orange solid;
+}
+h1{
+    margin:0px;
+    margin-top:3%;
+    margin-left:50px;
+    color: orange;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: orange;
+}
+h2, p{
+    text-align: left;   
+}
+
