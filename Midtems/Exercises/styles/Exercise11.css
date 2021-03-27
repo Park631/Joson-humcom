@@ -1,5 +1,6 @@
 body{    
-    background-color: gray;        
+    background-color: gray;
+    border: 1px solid black;   
 }
 .center{
 text-align: center;
@@ -16,12 +17,14 @@ text-align: center;
     border: 1px solid black;
     text-align: center;
     position: relative;
+    background-color: lightgray;
 }
 .nav1{
     margin: 10px; 
     padding: 30px;   
     border: 1px solid black;
     text-align: center;
+    background-color: antiquewhite;
 }
 #content{
     margin: 20px; 
@@ -30,12 +33,14 @@ text-align: center;
     text-align: center;
     min-height: 360px;
     max-width: 400px;
+    background-color: lightgray;
 }
 .header2{
     margin: 10px; 
     padding: 30px;   
     border: 1px solid black;
     text-align: center;
+    background-color: antiquewhite;
 }
 .nav2{
     margin: 10px; 
@@ -44,30 +49,27 @@ text-align: center;
     text-align: center;
     min-height: 360px;
     max-width: 400px;
+    background-color: antiquewhite;
 }
 .footer1{
     margin: 10px; 
     padding: 30px;   
     border: 1px solid black;
     text-align: center;
+    background-color: antiquewhite;
 }
-#wrapped{
-    float:right;    
-    height: max-content;    
-    width:max-content;    
-    margin-right: 20px;
+.article2{
+    min-height: 460px;
+    border: 1px solid black;
+    position: relative;
+}
+#sectionWrapper{
+    min-width: 400px;
+    min-height: 360px;
+}  
+.one{
+    height: 420px;
+    width: 300px;
     border: 1px solid black;
 }
-.three{   
-    float:right;    
-    height:420px;    
-    width: 300px;      
-    margin-right: 20px; 
-    text-align: center;
-   }
-.header2{
-    margin: 10px;
-    padding: 30px;
-    border: 1px solid black;
-    text-align: center;
-}
+ 
