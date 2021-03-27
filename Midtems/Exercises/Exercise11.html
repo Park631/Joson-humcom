@@ -1,38 +1,61 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Exercise 11</title>
-        <meta charset="utf-8"> 
-        <meta name="author" content="P.Joson" >
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="styles/Exercise11.css" >       
+<html>    
+    <head>       
+        <title>Internal CSS</title>        
+        <meta charset="utf-8">         
+        <meta name="author" content="P.Joson" >       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+        <link rel="stylesheet" type="text/css" href="styles/Exercise11.css">               
     </head>
-
-    <body>
-    <h1 class="center">Body</h1>
-    <div id="mainContent">        
-        <header class="header1">
-            Header      
-            <nav class="nav1">
-                Nav                  
-            </nav> 
-        </header>    
-<div id="content">
-    <article class="article1"> 
-        Section           
-    <header class="header2">
-        Header
-    </header>
-    <nav class="nav2">
-        Nav                  
-    </nav> 
-       <footer class="footer1">Footer</footer>
+<body>
+        <h1 class="center">Body</h1>
+        <div id="mainContent">        
+            <header class="header1">
+                Header      
+                <nav class="nav1">
+                    Nav                  
+                </nav> 
+            </header>    
+    <div id="content">
+        <article class="article1"> 
+            Section           
+        <header class="header2">
+            Header
+        </header>
+        <nav class="nav2">
+            Nav                  
+        </nav> 
+           <footer class="footer1">Footer</footer>
+        </article>
+    </div>
+    <article class="article2">
+        <div id="sectionWrapper">
+        <section class="One">Section</section>
+        <header class="header3">
+            Header
+        </header>
+        <article class="article3">
+            Article
+            <div>
+            <header class="header3">
+                Header
+            </header>
+            <p class="p1">P</p>
+            <p class="p2">P</p>
+            <footer class="footer2">Footer</footer>
+        </article>
+        <article class="article4">
+            Article
+            <div>
+            <header class="header4">
+                Header
+            </header>
+            <p class="p3">P</p>
+            <aside>Aside</aside>
+            <footer class="footer3">Footer</footer>
+        </article>
     </article>
-</div>
-<article class="article2">
-    <div id="sectionWrapper">
-    <aside class="One">Section</aside>
-</article>
-</div>
-</body>
-</html>
+    <footer class="footer4">Footer</footer>
+    </div>
+    </body>
+    </html>
