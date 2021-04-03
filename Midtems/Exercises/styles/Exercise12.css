@@ -1,49 +1,11 @@
-*{
-    box-sizing: border-box;
-    margin: 5px 0px;    
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #ffff;
+*{    
+    box-sizing: border-box;  
+    color: #ffff;       
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',  sans-serif;
 }
-.col-3{ width:25%;}
-.col-4{ width:33.33%;}
-body{
-    background-color: darkcyan;
-    width: 95%;
-    margin: auto;
+body{ width: 100%; }
+#main, header, footer{    
+    width:95%;  margin: 10px auto;      
 }
-header,footer{
-    height: 150px;
-    background-color: lightgrey;
-}
-
-#wrapper{
-    box-sizing: border-box;
-}
-#wrapper>.col{
-    height: 300px;
-    background-color: steelblue;
-    border: 1px solid black;
-    display:inline;
-    float: left;
-    
-}
-
-footer{ clear:left;}
-
-@media screen and (max-width:1024px){
-    .col-md-4{ width:33.33%;}
-    .col-md-12{ width:100%;}
-    body{ background-color:darkmagenta;} 
-}
-@media screen and (max-width:980px){
-    .col-sm-6{ width:50%;}
-    .col-sm-12{ width:100%;}
-    body{ background-color:darkgreen;} 
-}
-@media screen and (max-width:768px){
-    .col-xs-12{ width:100%;}
-    body{ background-color:crimson;} 
-}
-@media screen and (max-width:481px){
-    body{ background-color:lightcoral;} 
-}
+header, footer{    
+    height: 200px;    background-color:  #9933cc;    width: 100%;    padding: 15px;}.grid-container{    width: 100%;    display: grid;    grid-auto-flow: row;    grid-template-columns: auto auto auto auto;    grid-gap: 10px;}.grid-container>.col-1{        height: 500px;    background-color: darksalmon;    }footer{  height: 100px; }@media screen and (max-width:1024px){    .grid-container{    grid-template-columns: auto auto auto;    }    .grid-container>.col4{            height: 200px;        grid-column-end: span 3;    }  }@media screen and (max-width:980px){    .grid-container{        grid-template-columns: auto auto auto auto;    }    .grid-container>.col1, .grid-container>.col2{            height: 300px;        grid-column-end: span 2 ;      }    .grid-container>.col3,.grid-container>.col4{            height: 200px;        grid-column-end: span 4 ;    }        }@media screen and (max-width:768px){     .grid-container>.col-1{            height: 100px;        grid-column-end: span 4 ;     } }
